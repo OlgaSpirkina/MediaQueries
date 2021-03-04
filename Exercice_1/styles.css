@@ -4,23 +4,20 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-
 }
-.first, .second, .third, .fourth {
+.square {
   background-color: green;
   height: 13vh;
-  width: 7vw;
+  width: 25%;
   background-color: green;
   border-right: 1px solid;
-
-
 }
-.fourth{
+.yellow{
   background-color: yellow;
-  flex-grow: 4;
+  flex-basis: 60%;
   border-right: none;
 }
-@media screen and (max-width: 980px)
+@media all and (max-width: 980px)
 {
   .main{
     background-color: grey;
@@ -28,15 +25,12 @@
     justify-content: space-between;
     width: 80vw;
   }
-  .first, .second, .third, .fourth {
-    background-color: green;
-    height: 13vh;
-    width: 25vw;
+  .square {
     background-color: #90ee90;
     border: 1px solid #808080;
 
   }
-  .fourth{
+  .yellow{
     background-color: yellow;
     flex-grow: 4;
     border: none;
